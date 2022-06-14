@@ -1,0 +1,151 @@
+/* buttom */
+
+.button {
+    margin: auto;
+    width: 1920px;
+}
+
+.button_top {
+    width: 1920px;
+    height: 20px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.button_btm {
+    width: 1920px;
+    height: 448px;
+    background-color: #2F2F2F;
+}
+
+
+/* buttom_word */
+
+.button_dec {
+    display: flex;
+    justify-content: space-between;
+    height: 43.72px;
+    padding: 64.14px 349.9px 0 349.9px;
+}
+
+.sale_return,
+.free_ship,
+.quality {
+    display: flex;
+    height: 34.16px;
+    /* background-color: #FFB9B9; */
+}
+
+.free_ship {
+    width: 251.09px;
+}
+
+.sale_return {
+    width: 261.09px;
+}
+
+.quality {
+    width: 261.09px;
+}
+
+.button_ico {
+    width: 34.19px;
+    height: 43.12px;
+    margin-right: 19.9px;
+}
+
+.button_ship,
+.button_sale,
+.button_qua {
+    line-height: 40.16px;
+    height: 26px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    /* line-height: 100%; */
+    /* identical to box height, or 26px */
+    color: #FFFFFF;
+}
+
+.button_ship img {
+    width: 100%;
+    height: 100%;
+}
+
+.button_sale {
+    width: 197px;
+    white-space: nowrap;
+}
+
+.button_ship {
+    width: 188px;
+}
+
+
+/* mao */
+
+.button_mao {
+    background-image: url("../img/Frame\ 107.png");
+    /* margin-top: 97.14px; */
+    width: 59px;
+    height: 59px;
+    margin: 97.14px auto;
+    overflow: hidden;
+    background-size: 100%;
+}
+
+.button_last {
+    margin: 31px auto;
+    width: 300px;
+    height: 20px;
+}
+
+.button_last ul {
+    margin: auto;
+    display: flex;
+    /* white-space: nowrap; */
+}
+
+.button_last ul li a {
+    color: #888888;
+    height: 20px;
+}
+
+.button_shu {
+    width: 1px;
+    height: 22px;
+    background: #888888;
+}
+
+.last_1,
+.last_2,
+.last_3 {
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* 中深灰YC */
+    color: #888888;
+    /* white-space: nowrap; */
+}
+
+.last_1 {
+    width: 40px;
+}
+
+.last_2 {
+    width: 80px;
+}
+
+.last_3 {
+    width: 80px;
+}
+
+.last_1,
+.button_shu,
+.last_2 {
+    margin-right: 24px;
+}

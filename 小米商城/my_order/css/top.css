@@ -1,0 +1,95 @@
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.page_top {
+    position: relative;
+    width: 1920px;
+    height: 50px;
+    background: #3D3D3D;
+}
+
+.page_top a {
+    color: #B0B0B0;
+}
+
+.page_top ul {
+    display: flex;
+    line-height: 50px;
+    position: absolute;
+    right: 194px;
+}
+
+li {
+    list-style: none;
+}
+
+#top_li6 {
+    background-color: #424242;
+    width: 150px;
+    height: 50px;
+    right: 194px;
+    text-align: center;
+}
+
+#top_li6 img {
+    margin-left: 24px;
+    top: 50%;
+    width: 18px;
+    height: 18px;
+}
+
+
+/* 我的收藏 */
+
+#top_li5 {
+    margin-left: 24px;
+    width: 72px;
+    height: 18px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    /* identical to box height, or 18px */
+}
+
+
+/* 我的订单 */
+
+#top_li4 {
+    margin-left: 24px;
+    width: 72px;
+    height: 18px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    /* identical to box height, or 18px */
+}
+
+#top_li1,
+#top_li3 {
+    margin-left: 10px;
+    width: 36px;
+    height: 18px;
+    left: 1320px;
+    top: 16px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    /* identical to box height, or 18px */
+    color: #B0B0B0;
+}
+
+#top_li2 {
+    margin-left: 10px;
+    width: 1px;
+    height: 16px;
+    background: #C4C4C4;
+    margin-top: 18px;
+}

@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.my_collect {
+    margin: auto;
+    width: 1920px;
+}
+
+.tell_banner {
+    width: 1920px;
+    height: 106px;
+    display: flex;
+    position: relative;
+}
+
+.lambel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 198px;
+    top: 46px;
+}
+
+.word {
+    width: 144px;
+    height: 36px;
+    left: 236px;
+    top: 44px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    /* identical to box height, or 36px */
+    /* 黑字体333333YC */
+    color: #333333;
+    position: absolute;
+}
+
+.collect_main {
+    width: 1920px;
+    height: 688px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.collect_null {
+    position: absolute;
+    left: 312.57px;
+    top: 112.56px;
+    height: 400.72308349609375px;
+    width: 463.7249450683594px;
+    border-radius: 0px;
+}
+
+.hint_word {
+    width: 396px;
+    height: 44px;
+    position: absolute;
+    left: 894px;
+    top: 200px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 100%;
+    /* identical to box height, or 44px */
+    /* 灰字体BOBOBOYC */
+    color: #B0B0B0;
+}
+
+.hint_word_2 {
+    width: 156px;
+    height: 26px;
+    position: absolute;
+    left: 894px;
+    top: 274px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    /* identical to box height, or 26px */
+    /* 灰字体BOBOBOYC */
+    color: #B0B0B0;
+}
+
+
+/* 控制页面显示 */
+
+.display_collect {
+    display: none;
+}
+
+
+/* 展示信息 */
+
+.pic {
+    box-sizing: border-box;
+    width: 292px;
+    height: 200px;
+    background-color: white;
+    margin-top: 14px;
+}
+
+.phone_name {
+    height: 18px;
+    width: 96px;
+    /* transform: translateX(25%); */
+    margin: 34px auto 0;
+    /* background-color: pink; */
+    /* line-height: 18px; */
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+    text-align: center;
+    /* 黑字体333333YC */
+    color: #333333;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.phone_title {
+    margin: 12px auto 0;
+    height: 15px;
+    width: 164px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    /* identical to box height, or 15px */
+    text-align: center;
+    /* 灰字体BOBOBOYC */
+    color: #B0B0B0;
+    white-space: nowrap;
+}
+
+.phone_price {
+    margin-top: 20px;
+    height: 20px;
+    display: flex;
+    position: relative;
+}
+
+.price {
+    height: 100%;
+    width: 68px;
+    margin: 0 8px 0 74px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    text-align: center;
+    /* 热情橙色YC */
+    color: #FF6700;
+    position: absolute;
+}
+
+.price_selling {
+    position: absolute;
+    height: 100%;
+    width: 68px;
+    left: 160px;
+    /* background-color: pink; */
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    text-align: center;
+    /* 灰字体BOBOBOYC */
+    color: #B0B0B0;
+    /* 横 */
+    position: relative;
+}
+
+.hen {
+    position: absolute;
+    width: 68px;
+    height: 2px;
+    top: 9px;
+    background: #B0B0B0;
+    z-index: 1;
+}
+
+.collect_com {
+    position: relative;
+    top: 36px;
+    left: 194px;
+    width: 292px;
+    height: 375px;
+    background-color: #FFFFFF;
+}

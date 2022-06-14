@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全部商品</title>
+    <link rel="stylesheet" href="../css/all_product.css">
+    <link rel="stylesheet" href="../css/page_banner_top.css">
+    <link rel="stylesheet" href="../css/classify.css">
+
+    <!-- 页面导入 -->
+    <script src="../js/jquery-3.6.0.js"></script>
+
+</head>
+
+<body>
+    <div class="all_product">
+        <div class="page_top">
+            <ul class="page_top_ul">
+                <li id="top_li1"><a href="#">登录</a></li>
+                <li id="top_li2"></li>
+                <li id="top_li3"><a href="#">注册</a></li>
+                <li id="top_li4" onclick="pageJump_collect()"><a href="#">我的订单</a>
+                </li>
+                <li id="top_li5" onclick="pageJump_order()"><a href="#">我的收藏</a></li>
+                <li id="top_li6" onclick="pageJump_shopping()">
+                    <img src="../../home_page/img/Frame.png">
+                    <a href="#"> 购物车(0)</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--banner_top  -->
+        <div class="page_banner_top">
+            <div class="pink"></div>
+            <div class="banner_top_ul">
+                <ul>
+                    <li id="banner_a1" class="active"><a href="#">首页</a></li>
+                    <li id="banner_a2"><a href="#">全部商品</a></li>
+                    <li id="banner_a3"><a href="#">关于我们</a></li>
+                </ul>
+            </div>
+            <div class="banner_top_input">
+                <input type="text" placeholder="请输入内容" height="16px">
+                <div class="input_img1"></div>
+                <div class="input_img2"><img src="../img/Vector_搜索框.png" alt=""></div>
+            </div>
+        </div>
+
+
+        <div class="classify">
+            <div class="honme_page">首页</div>
+            <div class="arrow"><img src="../img/Vector.png" alt=""></div>
+            <div class="all_page">全部商品</div>
+            <div class="arrow"><img src="../img/Vector.png" alt=""></div>
+            <div class="class">分类</div>
+        </div>
+
+
+
+        <div class="classList">
+            <div class="class_1">
+                分类
+            </div>
+            <div class="pro">
+                <ul>
+                    <li class="pro_first ">
+                        <div class="class_2">全部</div>
+                    </li>
+                    <li class="pro_2">
+                        <div class="class_3">手机</div>
+                    </li>
+                    <li class="pro_2">
+                        <div class="class_4">电视机</div>
+                    </li>
+                    <li class="pro_2">
+                        <div class="class_5">空调</div>
+                    </li>
+                    <li class="pro_2">
+                        <div class="class_6">洗衣机</div>
+                    </li>
+                    <li class="pro_2">
+                        <div class="class_7">保护套</div>
+                    </li>
+                    <li class="pro_2">
+                        <div class="class_8">保护膜</div>
+                    </li>
+                    <li class="pro_2">
+                        <div class="class_9">充电器</div>
+                    </li>
+                    <li id="pro_last">
+                        <div class="class_10">充电宝</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- 轮播图切换效果 -->
+        <div class="hidden_solve">
+            <ul class="page_main_all">
+                <li class="page_main">
+                    <div class="main_top">
+                        <div class="data">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_center">
+                        <div class="data">
+                            <ul>
+                                <li>
+                                </li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_buttom">
+                        <div class="data">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="page_main">
+                    <div class="main_top">
+                        <div class="data">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_center">
+                        <div class="data">
+                            <ul>
+                                <li>
+                                </li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_buttom">
+                        <div class="data">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="page_main">
+                    <div class="main_top">
+                        <div class="data">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_center">
+                        <div class="data">
+                            <ul>
+                                <li>
+                                </li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_buttom">
+                        <div class="data">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+        <div class="buttom_slide">
+            <div class="arrow_l"><img src="../img/Frame 167.png" alt=""></div>
+            <div class="page_num">
+                <ul>
+                    <li class="num_style">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+            <div class="arrow_r"><img src="../img/Frame 166.png" alt=""></div>
+        </div>
+
+        <div class="page_buttom">
+            <div class="button">
+                <div class="button_top">
+                </div>
+
+                <div class="button_btm">
+                    <div class="button_main">
+                        <div class="button_dec">
+                            <div class="sale_return">
+                                <div class="button_ico"><img src="../img/Vector copy.png" alt=""></div>
+                                <div class="button_sale">七天无理由退换货</div>
+                            </div>
+
+
+                            <div class="free_ship">
+                                <div class="button_ico"><img src="../img/Vector copy.png" alt=""></div>
+                                <div class="button_ship">满99全场包邮</div>
+                            </div>
+
+
+                            <div class="quality">
+                                <div class="button_ico"><img src="../img/Vector copy.png" alt=""></div>
+                                <div class="button_qua">
+                                    100%品质保证
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="button_mao"></div>
+
+                        <div class="button_last">
+                            <ul>
+                                <li class="last_1"><a href="#">首页</a></li>
+                                <div class="button_shu"></div>
+                                <li class="last_2"><a href="#">全部商品</a></li>
+                                <div class="button_shu"></div>
+                                <li class="last_3"><a href="#">关于我们</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页面导入 -->
+    <script src="../js/page_inter.js"></script>
+    <script src="../js/main_roll.js"></script>
+
+</body>
+
+</html>

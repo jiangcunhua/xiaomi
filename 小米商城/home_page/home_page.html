@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home_page</title>
+    <link rel="stylesheet" href="./css/home_page.css">
+
+    <!-- 首页滚播图 -->
+    <script src="./jquery-3.6.0.js"></script>
+
+    <!-- 导入登录组件 -->
+    <link rel="stylesheet" href="./css/login.css">
+    <!-- media适配 -->
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- 注册 -->
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <div class="page_home">
+
+
+        <!-- 组件 -->
+
+        <!-- 1.登录 -->
+        <div class="login_showdom">
+            <div class="login">
+                <div class="s-del"><img src="./img/Frame (1).png" alt=""></div>
+                <div class="login_denglu">
+                    登录
+                </div>
+                <div class="usename">
+                    <div class="usename_img"><img src="./img/Vector copy.png"></div>
+
+                    <input type="text" placeholder="请输入账号">
+
+                    <div class="usename_stand">字母开头,长度5-16之间,允许字母数字下划线</div>
+                </div>
+                <div class="password">
+                    <div class="password_img">
+                        <img src="./img/Vector (1).png" alt="">
+                    </div>
+
+                    <input type="password" placeholder="请输入密码">
+
+                    <div class="password_stand">字母开头,长度6-18之间,允许字母数字和下划线</div>
+                </div>
+                <div class="login_buttom">
+                    登录
+                </div>
+            </div>
+        </div>
+
+        <!-- 2.注册 -->
+        <div class="register_showdom">
+            <div class="register">
+                <div class="r-del"><img src="./img/Frame (1).png" alt=""></div>
+                <div class="register_denglu">
+                    注册
+                </div>
+                <div class="r-usename">
+                    <div class="r-usename_img"><img src="./img/Vector copy.png" alt=""></div>
+
+                    <input type="text" placeholder="请输入账号">
+
+                    <div class="r-usename_hint">请输入用户名</div>
+                    <div class="r-usename_stand">字母开头,长度5-16之间,允许字母数字下划线</div>
+                </div>
+                <div class="r-password">
+                    <div class="r-password_img">
+                        <img src="./img/Vector (1).png" alt="">
+                    </div>
+
+                    <input type="password" placeholder="请输入密码">
+
+                    <div class="r-password_hint">请输入密码</div>
+                    <div class="r-password_stand">字母开头,长度6-18之间,允许字母数字和下划线</div>
+                </div>
+                <div class="r-password_twe">
+                    <div class="r-password_img">
+                        <img src="./img/Vector (1).png" alt="">
+                    </div>
+
+                    <input type="password" placeholder="请再次输入密码">
+
+                    <div class="r-password_twe_hint">请再次输入密码</div>
+                    <div class="r-password_twe_stand">两次输入密码不一致</div>
+                </div>
+                <div class="register_buttom">
+                    登录
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 正文 -->
+        <div class="page_top">
+            <ul class="page_top_ul">
+                <li id="top_li1">登录</li>
+                <li id="top_li2"></li>
+                <li id="top_li3"><a href="#">注册</a></li>
+                <li id="top_li4" onclick="pageJump_collect()"><a href="#">我的订单</a>
+                </li>
+                <li id="top_li5" onclick="pageJump_order()"><a href="#">我的收藏</a></li>
+                <li id="top_li6" onclick="pageJump_shopping()">
+                    <img src="./img/Frame.png">
+                    <a href="#"> 购物车(0)</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="page_banner_top">
+            <div class="pink"></div>
+            <div class="banner_top_ul">
+                <ul>
+                    <li id="banner_a1" class="active"><a href="#">首页</a></li>
+                    <li id="banner_a2" onclick="pageJump_allProduct()"><a href="#">全部商品</a></li>
+                    <li id="banner_a3"><a href="#">关于我们</a></li>
+                </ul>
+            </div>
+            <div class="banner_top_input">
+                <input type="text" placeholder="请输入内容" height="16px" class="input_hide" maxlength="100px">
+                <div class="input_img1"></div>
+                <div class="input_img2"><img src="./img/Vector_搜索框.png" alt=""></div>
+            </div>
+        </div>
+
+        <div class="banner_line"></div>
+
+
+        <div class="banner">
+            <div class="banner_ico_left"><img src="./img/next.png" alt=""></div>
+            <div class="banner_ico_right"><img src="./img/next.png" alt=""></div>
+        </div>
+
+
+        <div class="center">
+            <div class="banner1">
+                <div class="phone">手机</div>
+                <div class="banner1_main">
+                    <div class="center_banner1_left"></div>
+                    <div class="center_banner1_right">
+                        <!-- ul_1 -->
+                        <ul class="center_banner1_right_top">
+                            <li>
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <!-- <div class="hen"></div> -->
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="phone_02">
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="phoone_03">
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="phone_04">
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+
+
+                        <!-- ul_2 -->
+                        <ul class="center_banner1_right_button">
+                            <li>
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- 盒子写法 -->
+                        <!-- <div class="center_banner1_right_button">
+                            <div class="center_banner1_right1"></div>
+                            <div class="center_banner1_right1"></div>
+                            <div class="center_banner1_right1"></div>
+                            <div class="center_banner1_right1"></div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="banner2">
+
+                <div class="banner2_top">
+                    <div class="home_app">家电</div>
+                    <div class="banner2_top_ul">
+                        <ul>
+                            <li id="banner2_li1">热门</li>
+                            <li id="banner2_li2">电视影音</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="banner1_main">
+                    <div class="banner2_left">
+                        <div class="banner2_left1"></div>
+                        <div class="banner2_left2"></div>
+                    </div>
+
+                    <div class="center_banner1_right">
+                        <!-- ul_1 -->
+                        <ul class="center_banner1_right_top">
+                            <li>
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <!-- <div class="hen"></div> -->
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="phone_02">
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="phoone_03">
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="phone_04">
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+
+
+                        <!-- ul_2 -->
+                        <ul class="center_banner1_right_button">
+                            <li>
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pic"></div>
+                                <div class="phone_name"></div>
+                                <div class="phone_title"></div>
+                                <div class="phone_price">
+                                    <div class="price"></div>
+                                    <div class="price_selling">
+                                        <div class="hen"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="banner3">
+                    <div class="banner3_top">
+                        <div class="part">配件</div>
+                        <div class="banner3_top_ul">
+                            <ul>
+                                <li id="banner3_li1">热门</li>
+                                <li id="banner3_li2">保护套</li>
+                                <li id="banner3_li3">充电器</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="banner1_main">
+                        <div class="banner3_left">
+                            <div class="banner3_left1"></div>
+                            <div class="banner3_left2"></div>
+                        </div>
+
+                        <div class="center_banner1_right">
+                            <!-- ul_1 -->
+                            <ul class="center_banner1_right_top">
+                                <li>
+                                    <div class="pic"></div>
+                                    <div class="phone_name"></div>
+                                    <div class="phone_title"></div>
+                                    <div class="phone_price">
+                                        <div class="price"></div>
+                                        <div class="price_selling">
+                                            <!-- <div class="hen"></div> -->
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="phone_02">
+                                    <div class="pic"></div>
+                                    <div class="phone_name"></div>
+                                    <div class="phone_title"></div>
+                                    <div class="phone_price">
+                                        <div class="price"></div>
+                                        <div class="price_selling">
+                                            <div class="hen"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="phoone_03">
+                                    <div class="pic"></div>
+                                    <div class="phone_name"></div>
+                                    <div class="phone_title"></div>
+                                    <div class="phone_price">
+                                        <div class="price"></div>
+                                        <div class="price_selling">
+                                            <div class="hen"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="phone_04">
+                                    <div class="pic"></div>
+                                    <div class="phone_name"></div>
+                                    <div class="phone_title"></div>
+                                    <div class="phone_price">
+                                        <div class="price"></div>
+                                        <div class="price_selling">
+                                            <div class="hen"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+
+
+                            <!-- ul_2 -->
+                            <ul class="center_banner1_right_button">
+                                <li>
+                                    <div class="pic"></div>
+                                    <div class="phone_name"></div>
+                                    <div class="phone_title"></div>
+                                    <div class="phone_price">
+                                        <div class="price"></div>
+                                        <div class="price_selling">
+                                            <div class="hen"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic"></div>
+                                    <div class="phone_name"></div>
+                                    <div class="phone_title"></div>
+                                    <div class="phone_price">
+                                        <div class="price"></div>
+                                        <div class="price_selling">
+                                            <div class="hen"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic"></div>
+                                    <div class="phone_name"></div>
+                                    <div class="phone_title"></div>
+                                    <div class="phone_price">
+                                        <div class="price"></div>
+                                        <div class="price_selling">
+                                            <div class="hen"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="more">
+                                    <div class="pic"></div>
+                                    <div class="phone_name"></div>
+                                    <div class="phone_title"></div>
+                                    <div class="phone_price">
+                                        <div class="price"></div>
+                                        <div class="price_selling">
+                                            <div class="hen"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 浏览更多>> -->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+            <div class="button">
+                <div class="button_top">
+                </div>
+
+                <div class="button_btm">
+                    <div class="button_main">
+                        <div class="button_dec">
+                            <div class="sale_return">
+                                <div class="button_ico"><img src="./img/Vector.png" alt=""></div>
+                                <div class="button_sale">七天无理由退换货</div>
+                            </div>
+
+
+                            <div class="free_ship">
+                                <div class="button_ico"><img src="./img/Vector.png" alt=""></div>
+                                <div class="button_ship">满99全场包邮</div>
+                            </div>
+
+
+                            <div class="quality">
+                                <div class="button_ico"><img src="./img/Vector.png" alt=""></div>
+                                <div class="button_qua">
+                                    100%品质保证
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="button_mao"></div>
+
+                        <div class="button_last">
+                            <ul>
+                                <li class="last_1"><a href="#">首页</a></li>
+                                <div class="button_shu"></div>
+                                <li class="last_2"><a href="#">全部商品</a></li>
+                                <div class="button_shu"></div>
+                                <li class="last_3"><a href="#">关于我们</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- 登录组件 注册组件-->
+            <script src="./js/element.js"></script>
+
+            <script src="./js/phone.js"></script>
+
+            <script src="./js/register.js"></script>
+
+            <script src="./js/roll.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,473 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    /* 封页顶部 */
+    
+    a {
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .all_product {
+        margin: auto;
+        width: 1920px;
+    }
+    
+    .page_top {
+        position: relative;
+        width: 1920px;
+        height: 50px;
+        background: #3D3D3D;
+    }
+    
+    .page_top a {
+        color: #B0B0B0;
+    }
+    
+    .page_top ul {
+        display: flex;
+        line-height: 50px;
+        position: absolute;
+        right: 194px;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    #top_li6 {
+        background-color: #424242;
+        width: 150px;
+        height: 50px;
+        right: 194px;
+        text-align: center;
+    }
+    
+    #top_li6 img {
+        margin-left: 24px;
+        top: 50%;
+        width: 18px;
+        height: 18px;
+    }
+    /* 我的收藏 */
+    
+    #top_li5 {
+        margin-left: 24px;
+        width: 72px;
+        height: 18px;
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 50px;
+        /* identical to box height, or 18px */
+    }
+    /* 我的订单 */
+    
+    #top_li4 {
+        margin-left: 24px;
+        width: 72px;
+        height: 18px;
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 50px;
+        /* identical to box height, or 18px */
+    }
+    
+    #top_li1,
+    #top_li3 {
+        margin-left: 10px;
+        width: 36px;
+        height: 18px;
+        left: 1320px;
+        top: 16px;
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 50px;
+        /* identical to box height, or 18px */
+        color: #B0B0B0;
+    }
+    
+    #top_li2 {
+        margin-left: 10px;
+        width: 1px;
+        height: 16px;
+        background: #C4C4C4;
+        margin-top: 18px;
+    }
+    /* page_buttom */
+    
+    .button_top {
+        width: 1920px;
+        height: 20px;
+        background-color: #FFFFFF;
+        margin: auto;
+    }
+    
+    .button_btm {
+        width: 1920px;
+        height: 448px;
+        background-color: #2F2F2F;
+    }
+    /* buttom_word */
+    
+    .button_dec {
+        display: flex;
+        justify-content: space-between;
+        height: 43.72px;
+        padding: 64.14px 349.9px 0 349.9px;
+    }
+    
+    .sale_return,
+    .free_ship,
+    .quality {
+        display: flex;
+        height: 34.16px;
+        /* background-color: #FFB9B9; */
+    }
+    
+    .free_ship {
+        width: 251.09px;
+    }
+    
+    .sale_return {
+        width: 261.09px;
+    }
+    
+    .quality {
+        width: 261.09px;
+    }
+    
+    .button_ico {
+        width: 34.19px;
+        height: 43.12px;
+        margin-right: 19.9px;
+    }
+    
+    .button_ship,
+    .button_sale,
+    .button_qua {
+        line-height: 40.16px;
+        height: 26px;
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        /* line-height: 100%; */
+        /* identical to box height, or 26px */
+        color: #FFFFFF;
+    }
+    
+    .button_ship img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .button_sale {
+        width: 197px;
+        white-space: nowrap;
+    }
+    
+    .button_ship {
+        width: 188px;
+    }
+    /* mao */
+    
+    .button_mao {
+        background-image: url("../img/Frame\ 107.png");
+        /* margin-top: 97.14px; */
+        width: 59px;
+        height: 59px;
+        margin: 97.14px auto;
+        overflow: hidden;
+        background-size: 100%;
+    }
+    
+    .button_last {
+        margin: 31px auto;
+        width: 300px;
+        height: 20px;
+    }
+    
+    .button_last ul {
+        margin: auto;
+        display: flex;
+        /* white-space: nowrap; */
+    }
+    
+    .button_last ul li a {
+        color: #888888;
+        height: 20px;
+    }
+    
+    .button_shu {
+        width: 1px;
+        height: 22px;
+        background: #888888;
+    }
+    
+    .last_1,
+    .last_2,
+    .last_3 {
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 100%;
+        /* identical to box height, or 20px */
+        /* 中深灰YC */
+        color: #888888;
+        /* white-space: nowrap; */
+    }
+    
+    .last_1 {
+        width: 40px;
+    }
+    
+    .last_2 {
+        width: 80px;
+    }
+    
+    .last_3 {
+        width: 80px;
+    }
+    
+    .last_1,
+    .button_shu,
+    .last_2 {
+        margin-right: 24px;
+    }
+    
+    .main_center,
+    .main_top,
+    .main_buttom {
+        height: 375px;
+        margin: 18px 194px 0px 194px;
+        background-color: #888888;
+    }
+    
+    .main_top ul,
+    .main_center ul,
+    .main_buttom ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .main_top ul li,
+    .main_center ul li,
+    .main_buttom ul li {
+        width: 292px;
+        height: 375px;
+        background-color: azure;
+    }
+    /* buttom_slide */
+    
+    .buttom_slide {
+        margin: 42px 854.57px 24px 854.57px;
+        width: 38px;
+        display: flex;
+    }
+    
+    .arrow_l {
+        cursor: pointer;
+        height: 38px;
+        margin-right: 26px;
+        margin-top: 13px;
+    }
+    
+    .arrow_r {
+        cursor: pointer;
+        height: 38px;
+        margin-left: 26px;
+        margin-top: 12px;
+    }
+    
+    .page_num ul {
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .page_num {
+        width: 130px;
+        height: 38px;
+    }
+    
+    .page_num ul li {
+        width: 38px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        cursor: pointer;
+        /* color: #606266; */
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    /* .num_1,
+    .num_2,
+    .num_3 {
+        color: #606266;
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+    }
+     */
+    
+    .num_style {
+        /* 安全蓝色buttonYC */
+        background: #409EFF;
+        border-radius: 2px;
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+        text-align: center;
+        color: #FFFFFF;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    /* 数据css */
+    /* 图片设置 */
+    
+    .pic {
+        box-sizing: border-box;
+        width: 292px;
+        height: 200px;
+        background-color: white;
+        margin-top: 14px;
+    }
+    
+    .pic img {
+        /* background-size: 100% 100%; */
+        /* width: 292px; */
+        height: 200px;
+        /* flex-shrink: 0; */
+        transform: translateX(25%);
+    }
+    /* phone_name */
+    
+    .phone_name {
+        height: 18px;
+        width: 96px;
+        /* transform: translateX(25%); */
+        margin: 34px auto 0;
+        /* background-color: pink; */
+        /* line-height: 18px; */
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+        text-align: center;
+        /* 黑字体333333YC */
+        color: #333333;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    /* title */
+    
+    .phone_title {
+        margin: 12px auto 0;
+        height: 15px;
+        width: 164px;
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 100%;
+        /* identical to box height, or 15px */
+        text-align: center;
+        /* 灰字体BOBOBOYC */
+        color: #B0B0B0;
+        white-space: nowrap;
+    }
+    /* price */
+    
+    .phone_price {
+        margin-top: 20px;
+        height: 20px;
+        display: flex;
+        position: relative;
+    }
+    
+    .price {
+        height: 100%;
+        width: 68px;
+        margin: 0 8px 0 74px;
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        /* identical to box height, or 20px */
+        text-align: center;
+        /* 热情橙色YC */
+        color: #FF6700;
+        position: absolute;
+    }
+    
+    .price_selling {
+        position: absolute;
+        height: 100%;
+        width: 68px;
+        left: 160px;
+        /* background-color: pink; */
+        font-family: 'PingFang SC';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        /* identical to box height, or 20px */
+        text-align: center;
+        /* 灰字体BOBOBOYC */
+        color: #B0B0B0;
+        /* 横 */
+        position: relative;
+    }
+    
+    .hen {
+        position: absolute;
+        width: 68px;
+        height: 2px;
+        top: 9px;
+        background: #B0B0B0;
+        z-index: 1;
+    }
+    
+    .page_main_all {
+        height: 1311px;
+        /* width: 1920px; */
+        position: absolute;
+        display: flex;
+    }
+    /* page_main */
+    
+    .page_main {
+        /* height: 1311px;
+        width: 1920px; */
+        background-color: antiquewhite;
+        padding-top: 22px;
+        height: 1311px;
+        margin: auto;
+    }
+    
+    .hidden_solve {
+        height: 1311px;
+        width: 1920px;
+        overflow: hidden;
+        position: relative;
+    }

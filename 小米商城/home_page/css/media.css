@@ -1,0 +1,58 @@
+/* media适配 */
+
+@media (max-width:768px) {
+    /* 顶部调整 */
+    .page_home {
+        width: 100%;
+        /* width: 750px; */
+        height: 100%;
+        margin: auto;
+    }
+    .page_top ul {
+        display: flex;
+        line-height: 50px;
+        position: absolute;
+        left: 50px;
+    }
+    .page_banner_top ul {
+        display: flex;
+        line-height: 64px;
+        margin-left: 0px;
+    }
+    .pink {
+        display: none;
+    }
+    /* banner调整 */
+    .banner {
+        margin-left: 0.5%;
+        margin-right: 10px;
+        width: 48.5%;
+    }
+    /* page_main 调整*/
+    /* page_bottom调整 */
+    .button_btm {
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        width: 48.5%;
+    }
+    .button_dec {
+        padding: 64px;
+    }
+    /* 猫咪 */
+    .button_mao {
+        margin: 60px auto;
+    }
+    /* 手机显示调整 */
+    .center {
+        padding-left: 0px;
+    }
+    .banner1 {
+        margin-left: 0.5%;
+    }
+    .center_banner1_left {
+        margin-left: 0.5%;
+    }
+    .center_banner1_right ul {
+        width: 50%;
+    }
+}

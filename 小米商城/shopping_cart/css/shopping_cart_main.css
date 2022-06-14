@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shopping_cart {
+    margin: auto;
+    width: 1920px;
+}
+
+.tell_banner {
+    width: 1920px;
+    height: 106px;
+    display: flex;
+    position: relative;
+}
+
+.lambel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 194px;
+    top: 46px;
+}
+
+.word {
+    width: 186px;
+    height: 36px;
+    left: 236px;
+    top: 44px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    /* identical to box height, or 36px */
+    /* 黑字体333333YC */
+    color: #333333;
+    position: absolute;
+}
+
+.banner_hint {
+    width: 420px;
+    height: 16px;
+    position: absolute;
+    left: 436px;
+    top: 64px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 105%;
+    /* identical to box height, or 16px */
+    /* 中深灰YC */
+    color: #888888;
+}
+
+
+/* 控制页面显示 */
+
+.display_collect {
+    display: none;
+}
+
+.collect_null {
+    position: absolute;
+    left: 312.57px;
+    top: 112.56px;
+    height: 400.72308349609375px;
+    width: 463.7249450683594px;
+    border-radius: 0px;
+}
+
+.hint_word {
+    width: 440px;
+    height: 44px;
+    position: absolute;
+    left: 894px;
+    top: 200px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 100%;
+    /* identical to box height, or 44px */
+    /* 灰字体BOBOBOYC */
+    color: #B0B0B0;
+}
+
+.hint_word_2 {
+    width: 156px;
+    height: 26px;
+    position: absolute;
+    left: 894px;
+    top: 274px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    /* identical to box height, or 26px */
+    /* 灰字体BOBOBOYC */
+    color: #B0B0B0;
+}
+
+.shopping_main {
+    padding-top: 24px;
+    width: 1920px;
+    height: 590px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.product_frame {
+    width: 1532px;
+    height: 438px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.opera_hint {
+    box-sizing: border-box;
+    width: 1532px;
+    height: 64px;
+    margin: 32px auto;
+    padding: 22px 48px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.hint_word1 {
+    width: 80px;
+    height: 20px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* 输入字颜色YC */
+    color: #606266;
+}
+
+.r_hint {
+    display: flex;
+}
+
+.hint_word2 {
+    width: 2px;
+    height: 24px;
+    /* 输入字颜色YC */
+    background: #606266;
+    margin-left: 24px;
+}
+
+.hint_word3 {
+    width: 231px;
+    height: 20px;
+    margin-left: 33px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* 输入字颜色YC */
+    color: #606266;
+}
+
+.account {
+    width: 118px;
+    height: 40px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FF6700;
+    margin-left: 704px;
+}
+
+.count {
+    margin-left: 40px;
+    width: 252px;
+    height: 64px;
+    background: #E0E0E0;
+    color: #909399;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    text-align: center;
+    line-height: 64px;
+    transform: translateY(-33%);
+}
+
+
+/* producy_frame */
+
+.product_frame {
+    padding: 56px 0 0 48px;
+    box-sizing: border-box;
+}
+
+.check_frame {
+    display: flex;
+}
+
+.check_all {
+    width: 36px;
+    height: 18px;
+    transform: translateY(-20%);
+    margin-left: 10px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+    /* 输入字颜色YC */
+    color: #606266;
+}
+
+.product_all {
+    margin-left: 192px;
+    display: flex;
+    /* background-color: #909399; */
+    height: 20px;
+    display: flex;
+}
+
+.frame {
+    display: flex;
+}
+
+.all_1 {
+    width: 80px;
+    height: 20px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* 输入字颜色YC */
+    color: #606266;
+}
+
+.all_2,
+.all_3,
+.all_4,
+.all_5 {
+    width: 40px;
+    height: 20px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* 输入字颜色YC */
+    color: #606266;
+}
+
+.all_2 {
+    margin-left: 464px;
+}
+
+.all_3 {
+    margin-left: 164px;
+}
+
+.all_4 {
+    margin-left: 182px;
+}
+
+.all_5 {
+    margin-left: 130px;
+}
+
+
+/* product_main */
+
+.product_main {
+    height: 100px;
+    width: 100%;
+    margin-top: 74px;
+    display: flex;
+    /* background-color: #333333; */
+}
+
+.product_img {
+    width: 100px;
+    height: 100px;
+    margin-left: 94px;
+    transform: translateY(-40%);
+    background-color: #606266;
+}
+
+.product_name {
+    width: 140px;
+    height: 20px;
+    background-color: #888888;
+    margin-left: 44px;
+}
+
+.product_price {
+    width: 68px;
+    height: 20px;
+    background-color: #333333;
+    margin-left: 390px;
+}
+
+.product_num {
+    box-sizing: border-box;
+    /* 搜索框背景色YC */
+    background: #F5F7FA;
+    /* 输入框色YC */
+    border: 1px solid #DCDFE6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 160px;
+    height: 42px;
+    transform: translateY(-25%);
+    /* background-color: #888888; */
+    margin-left: 90px;
+    position: relative;
+}
+
+.num_cou {
+    width: 80px;
+    height: 42px;
+    background: #FFFFFF;
+    /* 输入框色YC */
+    border: 1px solid #DCDFE6;
+    box-sizing: border-box;
+    margin: -1px auto;
+    text-align: center;
+    line-height: 42px;
+}
+
+.num_des img {
+    position: absolute;
+    top: 20px;
+    left: 14px;
+}
+
+.num_add img {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.product_count {
+    width: 68px;
+    height: 20px;
+    margin-left: 94px;
+    background-color: #606266;
+}
+
+.product_des {
+    width: 18.75px;
+    height: 18.75px;
+    margin-left: 141.25px;
+    /* background-color: #333333; */
+}
+
+
+/* 字体 */
+
+.product_name,
+.product_price,
+.product_num,
+.product_count {
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    text-align: center;
+    /* 输入字颜色YC */
+    color: #606266;
+}
+
+.product_count {
+    color: #FF6700;
+}

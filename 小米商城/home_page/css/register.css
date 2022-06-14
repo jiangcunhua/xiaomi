@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* del */
+
+.r-del {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 28px;
+    top: 28px;
+}
+
+.register_showdom {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.register {
+    position: relative;
+    width: 370px;
+    height: 448px;
+    background-color: white;
+    margin: 300px auto;
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+
+.register_denglu {
+    width: 50px;
+    height: 24px;
+    margin: 0 160px 0 160px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    text-align: center;
+    /* 黑字体333333YC */
+    color: #333333;
+}
+
+
+/* input: -ms-input-placeholder */
+
+.r-usename input:-ms-input-placeholder,
+.r-password input:-ms-input-placeholder,
+.r-password_twe input:-ms-input-placeholder {
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+    /* 小浅灰YC */
+    color: #C0C4CC;
+}
+
+.r-usename {
+    position: relative;
+    margin: 48px 28px 28px 28px;
+    width: 314px;
+    height: 50px;
+}
+
+.r-usename input,
+.r-password input,
+.r-password_twe input {
+    outline: none;
+    border: 1px solid #DCDFE6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 314px;
+    height: 50px;
+    padding-left: 38px;
+}
+
+.r-password,
+.r-password_twe {
+    position: relative;
+    width: 314px;
+    height: 50px;
+}
+
+.r-password {
+    margin: 0 28px 28px 28px;
+}
+
+.r-password_twe {
+    margin: 0 28px 32px 28px;
+}
+
+
+/* login_buttom */
+
+.register_buttom {
+    width: 314px;
+    height: 44px;
+    margin: 0 28px 66px 28px;
+    background-color: #409EFF;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 44px;
+    text-align: center;
+}
+
+
+/* 小图标 */
+
+.r-password_img {
+    position: absolute;
+    margin: 14.25px 284.01px 18.37px 13.11px;
+}
+
+.r-usename_img {
+    position: absolute;
+    margin: 17.51px 286.24px 17.59px 14.17px;
+}
+
+
+/* input hint */
+
+.r-usename_hint,
+.r-password_hint {
+    margin-top: 6px;
+    width: 96px;
+    height: 16px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 105%;
+    /* identical to box height, or 16px */
+    /* 错误样式色YC */
+    color: #F56C6C;
+}
+
+.r-usename_hint {
+    display: none;
+}
+
+.r-password_twe_hint {
+    margin-top: 6px;
+    width: 96px;
+    height: 16px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 105%;
+    /* identical to box height, or 16px */
+    /* 错误样式色YC */
+    color: #F56C6C;
+    width: 150px;
+    display: none;
+}
+
+.r-password_hint {
+    display: none;
+}
+
+
+/* stand */
+
+.r-usename_stand,
+.r-password_stand {
+    margin-top: 6px;
+    height: 16px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 105%;
+    /* identical to box height, or 16px */
+    /* 错误样式色YC */
+    color: #F56C6C;
+}
+
+.r-usename_stand {
+    width: 297px;
+    display: none;
+}
+
+.r-password_twe_stand {
+    margin-top: 6px;
+    height: 16px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 105%;
+    /* identical to box height, or 16px */
+    /* 错误样式色YC */
+    color: #F56C6C;
+    width: 150px;
+    display: none;
+}
+
+.r-password_stand {
+    width: 312px;
+    display: none;
+}

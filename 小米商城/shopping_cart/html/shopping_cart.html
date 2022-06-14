@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/shopping_cart_main.css">
+    <link rel="stylesheet" href="../css/top.css">
+    <link rel="stylesheet" href="../css/banner_top.css">
+    <link rel="stylesheet" href="../css/buttom.css">
+    <script src="../js/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <div class="shopping_cart">
+        <!-- page_top -->
+        <div class="page_top">
+            <ul class="page_top_ul">
+                <li id="top_li1">登录</li>
+                <li id="top_li2"></li>
+                <li id="top_li3"><a href="#">注册</a></li>
+                <li id="top_li4" onclick="pageJump_collect()"><a href="#">我的订单</a>
+                </li>
+                <li id="top_li5" onclick="pageJump_order()"><a href="#">我的收藏</a></li>
+                <li id="top_li6" onclick="pageJump_shopping()">
+                    <img src="../../home_page/img/Frame.png">
+                    <a href="#"> 购物车(0)</a>
+                </li>
+            </ul>
+        </div>
+        <!-- banner -->
+        <div class="page_banner_top">
+            <div class="pink"></div>
+            <div class="banner_top_ul">
+                <ul>
+                    <li id="banner_a1" class="active"><a href="#">首页</a></li>
+                    <li id="banner_a2"><a href="#">全部商品</a></li>
+                    <li id="banner_a3"><a href="#">关于我们</a></li>
+                </ul>
+            </div>
+            <div class="banner_top_input">
+                <input type="text" placeholder="请输入内容" height="16px">
+                <div class="input_img1"></div>
+                <div class="input_img2"><img src="../img/Vector_搜索框.png" alt=""></div>
+            </div>
+        </div>
+
+
+
+        <!-- 标题栏 -->
+        <div class="tell_banner">
+            <div class="lambel"><img src="../img/Frame.png" alt=""></div>
+            <div class="word">我的购物车</div>
+            <div class="banner_hint">温馨提示：商品是否购买成功，以最终下单为准哦，请尽快结算</div>
+        </div>
+
+        <div class="shopping_main">
+            <div class="display_collect">
+                <div class="collect_null">
+                    <img src="../img/Frame (1).png" alt="">
+                </div>
+                <div class="hint_word">您的购物车还是空的！</div>
+                <div class="hint_word_2">快去购物吧！</div>
+            </div>
+
+
+            <div class="shopping_detail">
+                <div class="product_frame">
+                    <div class="frame">
+                        <div class="check_frame">
+                            <input type="checkbox">
+                            <div class="check_all">全选</div>
+                        </div>
+
+                        <div class="product_all">
+                            <div class="all_1">商品名称</div>
+                            <div class="all_2">单价</div>
+                            <div class="all_3">数量</div>
+                            <div class="all_4">小计</div>
+                            <div class="all_5">操作</div>
+                        </div>
+                    </div>
+                    <div class="product_main">
+                        <input type="checkbox">
+                        <div class="product_img"></div>
+                        <div class="product_name"></div>
+                        <div class="product_price"></div>
+                        <div class="product_num">
+                            <div class="num_des"><img src="../img/Rectangle 101.png" alt=""></div>
+                            <div class="num_cou">1</div>
+                            <div class="num_add"><img src="../img/Frame 316.png" alt=""></div>
+                        </div>
+                        <div class="product_count"></div>
+                        <div class="product_des"><img src="../img/des.png" alt=""></div>
+                    </div>
+                </div>
+
+                <!-- 操作提示 -->
+                <div class="opera_hint">
+                    <div class="r_hint">
+                        <div class="hint_word1">继续购物</div>
+                        <div class="hint_word2"></div>
+                        <div class="hint_word3">共 2 件商品，已选择 0 件</div>
+                        <div class="account">合计: 0元</div>
+                        <div class="count">去结算</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- banner_buttom -->
+        <div class="button">
+            <div class="button_top">
+            </div>
+
+            <div class="button_btm">
+                <div class="button_main">
+                    <div class="button_dec">
+                        <div class="sale_return">
+                            <div class="button_ico"><img src="../img/Vector.png" alt=""></div>
+                            <div class="button_sale">七天无理由退换货</div>
+                        </div>
+
+
+                        <div class="free_ship">
+                            <div class="button_ico"><img src="../img/Vector.png" alt=""></div>
+                            <div class="button_ship">满99全场包邮</div>
+                        </div>
+
+
+                        <div class="quality">
+                            <div class="button_ico"><img src="../img/Vector.png" alt=""></div>
+                            <div class="button_qua">
+                                100%品质保证
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="button_mao"></div>
+
+                    <div class="button_last">
+                        <ul>
+                            <li class="last_1"><a href="#">首页</a></li>
+                            <div class="button_shu"></div>
+                            <li class="last_2"><a href="#">全部商品</a></li>
+                            <div class="button_shu"></div>
+                            <li class="last_3"><a href="#">关于我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/shopping_cart.js"></script>
+</body>
+
+</html>
